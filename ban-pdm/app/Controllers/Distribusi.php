@@ -7,6 +7,10 @@ use CodeIgniter\RESTful\ResourceController;
 class Distribusi extends ResourceController
 {
     protected $format = 'json';
+
+    public function documentation() : string {
+        return view('api_documentation');        
+    }
     
     public function peringkatAkreditasi()
     {
