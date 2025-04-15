@@ -6,6 +6,7 @@
   <title>Dashboard Akreditasi Sekolah</title>
   <link type="image/png" href="/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <script src="/assets/js/apexcharts.min.js"></script>
 
   <style>
     * {
@@ -23,12 +24,12 @@
       text-align: center;
       border-bottom: 4px solid #d2aa4a;
     }
-    .top-bar {
+    /* .top-bar {
       background-color: #013e4c;
       padding: 10px;
       color: white;
       text-align: center;
-    }
+    } */
     .container {
       padding: 20px;
       max-width: 1200px;
@@ -91,14 +92,10 @@
 </head>
 <body>
   <header>
-    <img src="https://banpaudpnf.kemdikbud.go.id/assets/img/logo-banpdm.png" alt="BAN-PDM Logo" height="40">
+    <img src="/assets/img/logo-ban.png" alt="BAN-PDM Logo" height="40">
     <h3>Badan Akreditasi Nasional<br>Pendidikan Anak Usia Dini, Pendidikan Dasar, dan Pendidikan Menengah</h3>
   </header>
-
-  <div class="top-bar">
-    <h2>Jumlah Sekolah Per-Tahun Akreditasi <select><option>2024</option></select></h2>
-  </div>
-
+<!-- <select><option>2024</option></select> -->
   <div class="container">
     <div class="stat-boxes">
       <div class="stat">TOTAL<br><strong>121.471</strong></div>

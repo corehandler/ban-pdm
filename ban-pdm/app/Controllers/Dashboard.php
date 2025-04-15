@@ -7,10 +7,7 @@ class Dashboard extends BaseController
     public function index(): string
     {
         // TODO: differentiate between Admin and Non Admin
-        //       using session cookies
+        //       using session cookies (ci 4 already)
         return view('public_dashboard');
     }
-    // function view(string $page = 'home') : string {
-        
-    // }
 }
