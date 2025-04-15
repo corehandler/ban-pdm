@@ -6,7 +6,6 @@ use CodeIgniter\Router\RouteCollection;
 
 $routes->get('/', 'Home::index');
 $routes->get('/dashboard', 'Dashboard::index');
-$routes->get('/test-chart', 'Dashboard::testChart');
 
 // API
 
