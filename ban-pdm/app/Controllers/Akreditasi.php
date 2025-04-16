@@ -1,2 +1,0 @@
-<?php
-// Akreditasi.php
