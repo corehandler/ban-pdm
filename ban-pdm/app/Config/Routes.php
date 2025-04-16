@@ -10,7 +10,6 @@ $routes->get('/dashboard', 'Dashboard::index');
 // API
 
 $routes->get('api', 'Distribusi::documentation');
-$routes->get('api/', 'Distribusi::documentation');
 
 $routes->group('api/distribusi', ['namespace' => 'App\Controllers'], function($routes) {
     $routes->get('/', 'Distribusi::documentation');

@@ -28,19 +28,19 @@ class Distribusi extends ResourceController
         ]);
     }
 
-    public function sebaranSekolahTerakreditasi()
+    public function sebaranSekolahTerakreditasi(string $daerah)
     {
         return $this->respond([
             'status' => 'success',
-            'data' => 'Sebaran sekolah terakreditasi'
+            'data' => 'Sebaran sekolah terakreditasi ' . $daerah
         ]);
     }
 
-    public function akreditasiBerdasarkanJenjang()
+    public function akreditasiBerdasarkanJenjang(string $jenjang)
     {
         return $this->respond([
             'status' => 'success',
-            'data' => 'Akreditasi berdasarkan jenjang'
+            'data' => 'Akreditasi berdasarkan jenjang ' . $jenjang
         ]);
     }
     public function invalidParameters()
