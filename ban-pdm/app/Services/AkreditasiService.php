@@ -14,4 +14,9 @@ class AkreditasiService
     public function __contruct() {
         return $this->akreditasiModel = new AkreditasiModel();
     }
+    
+    // FIXME: self explainable
+    public function requestData() {
+        return $this->$akreditasiModel->findAll();
+    }
 }

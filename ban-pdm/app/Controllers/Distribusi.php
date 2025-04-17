@@ -20,7 +20,7 @@ class Distribusi extends ResourceController
         ]);
     }
 
-    public function sekolahPerTahun(string $year = "2025")
+    public function sekolahPerTahun(string $year)
     {
         return $this->respond([
             'status' => 'success',

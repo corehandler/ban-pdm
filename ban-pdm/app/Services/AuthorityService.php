@@ -7,6 +7,8 @@ namespace App\Services;
 
 use App\Models\RoleModel;
 
+define('ROLES', ['USER', 'ADMIN']);
+
 class AuthorityService
 {
     protected $roleModel;
